@@ -1,0 +1,133 @@
+footer {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.footer-tepa {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.footer-btn {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.footer-dack {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.footer-line {
+  width: 100%;
+  border: 2px solid rgba(245, 245, 245, 1);
+  margin-top: 64px;
+  margin-bottom: 60px;
+}
+// ==========================
+// .ikkinchi-birinchi {
+// }
+.birincvhi-title1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.photo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+}
+.birinvhi-dack1 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.footer-line2 {
+  border: 2px solid rgba(245, 245, 245, 1);
+  width: 1005;
+  max-width: 190px;
+  margin-top: -10px;
+}
+.footer-ikkinchi {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+// ==================================
+.ikkinch1 {
+  display: flex;
+}
+
+.ikkinchi-birinchi-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-right: 86px;
+}
+.ul-title {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.link-footer {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.footer-ikkinchi-ikkinchi-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-right: 86px;
+}
+.footer-ikkinchi-uchunchi-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+@media (max-width: 900px) {
+  .footer-ikkinchi {
+    flex-direction: column;
+    gap: 70px;
+  }
+}
+@media (max-width: 680px) {
+  .footer-tepa {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-dack {
+    font-size: 19px;
+  }
+}

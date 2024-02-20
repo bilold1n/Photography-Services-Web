@@ -1,0 +1,342 @@
+main {
+  overflow-x: hidden;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-title {
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 50px;
+}
+.line {
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 100%;
+  max-width: 185px;
+}
+.hero-dack {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  max-width: 690px;
+}
+.hero-orab {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 130px;
+}
+@media (max-width: 1105px) {
+  .hero-orab {
+    flex-direction: column;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-dack {
+    font-size: 25px;
+  }
+  .hero-img {
+    margin-left: -70px;
+    padding-left: 70px;
+    margin-top: 50px;
+    .img-hero {
+      width: 500px;
+    }
+  }
+}
+// ===========================================================
+.tepa {
+  display: flex;
+  align-items: center;
+  padding-top: 155px;
+  margin-bottom: 210px;
+}
+.tepa-link {
+  border: 1px solid black;
+  background-color: black;
+
+  margin-right: 77px;
+  padding: 20px;
+  display: flex;
+}
+.yepa-dack {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+  color: #fff;
+  padding: 15px 22px;
+}
+.yepa-dack1 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: left;
+  color: #fff;
+
+  padding: 15px 22px;
+}
+.tepa-link1 {
+  border: 1px solid black;
+  background-color: black;
+  margin-right: 130px;
+  padding: 20px;
+  padding: 20px;
+  display: flex;
+}
+span {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (max-width: 830px) {
+  .tepa {
+    flex-direction: column;
+    gap: 30px;
+    padding: 5px 50px;
+  }
+  span {
+    font-size: 20px;
+    width: 100%;
+    max-width: 20px;
+  }
+  .yepa-dack {
+    font-size: 15px;
+  }
+  .btn1 {
+    width: 100%;
+  }
+  .tepa-link {
+    width: 100%;
+    margin-right: -0px;
+  }
+  .tepa-link1 {
+    width: 100%;
+    margin-right: -0px;
+  }
+}
+// =========================================
+.birinchi {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+  .rasm1 {
+    display: none;
+  }
+  .rasm2 {
+    display: none;
+  }
+}
+.birincvhi-birinchi {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 500px;
+}
+.rasm1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rasm2 {
+  position: absolute;
+  bottom: 0;
+  // right: 0;
+  left: 0;
+}
+.birinchi-ikkinchi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.ikkinchi-title {
+  font-family: Poppins;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 41px;
+  width: 100%;
+  max-width: 450px;
+}
+.ikkiinchi-dack {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  max-width: 580px;
+}
+@media (max-width: 1200px) {
+  .ikkinchi-title {
+    font-size: 20px;
+  }
+}
+// ========================================
+.box-birinchi {
+  border: 1px solid 246, 246, 246, 1;
+  background: rgba(246, 246, 246, 1);
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  padding: 48px 0;
+}
+.box-title1 {
+  font-family: Poppins;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 255px;
+  margin-bottom: 90px;
+}
+.card {
+  margin-right: 75px;
+  padding-left: 36px;
+}
+.box-title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.box-dack {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  max-width: 650px;
+}
+@media (max-width: 1000px) {
+  .box-title1 {
+    font-size: 35px;
+  }
+  .img-p {
+    display: none;
+  }
+  .box-title {
+    font-size: 30px;
+  }
+  .box-dack {
+    font-size: 20px;
+  }
+}
+// =================================================================
+.pasi-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 210px;
+  padding-right: 80px;
+}
+.pasi-title {
+  font-family: Poppins;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pasi-dack {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 100%;
+  max-width: 520px;
+}
+@media (max-width: 1200px) {
+  .pasi-text {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .pasi-title {
+    font-size: 50px;
+  }
+}
+// ========================================================
+// .pasi-bax {
+// }
+.box-sana {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  max-width: 366px;
+  margin-bottom: 26px;
+}
+.pasi-box-title {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.pasi-link {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.div-pasi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 91px;
+  margin-bottom: 210px;
+}
+@media (max-width: 1440px) {
+  .div-pasi {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .img-o {
+    width: 300px;
+  }
+  .pasi-box-title {
+    font-size: 20px;
+  }
+}

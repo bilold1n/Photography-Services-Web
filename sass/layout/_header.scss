@@ -1,0 +1,42 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+#menu {
+  display: none;
+}
+@media (max-width: 630px) {
+  #menu {
+    display: block;
+    margin-top: -10px;
+  }
+}
+.site-logo {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.header-list {
+  display: flex;
+  gap: 60px;
+}
+.link {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.link:hover {
+  color: rgb(255, 204, 0);
+}
+@media (max-width: 630px) {
+  .navbar {
+    display: none;
+  }
+}
