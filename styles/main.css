@@ -419,6 +419,7 @@ footer {
   background-color: black;
   padding-top: 50px;
   padding-bottom: 10px;
+  height: 20%;
 }
 
 .footer-tepa {
@@ -457,8 +458,7 @@ footer {
 .footer-line {
   width: 100%;
   border: 2px solid rgb(245, 245, 245);
-  margin-top: 64px;
-  margin-bottom: 60px;
+  margin-top: 14px;
 }
 
 .birincvhi-title1 {
@@ -469,6 +469,7 @@ footer {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
+  padding-top: 60px;
 }
 
 .photo {
@@ -499,10 +500,12 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: black;
+  width: 100%;
 }
 
 .ikkinch1 {
   display: flex;
+  padding-top: 60px;
 }
 
 .ikkinchi-birinchi-ul {
