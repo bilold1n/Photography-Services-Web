@@ -419,7 +419,6 @@ footer {
   background-color: black;
   padding-top: 50px;
   padding-bottom: 10px;
-  height: 20%;
 }
 
 .footer-tepa {
@@ -443,6 +442,8 @@ footer {
   display: flex;
   gap: 15px;
   align-items: center;
+  padding-left: 5px;
+  padding-bottom: 20px;
 }
 
 .footer-dack {
@@ -535,6 +536,10 @@ footer {
   color: #fff;
 }
 
+.link-footer:hover {
+  opacity: 0.6;
+}
+
 .footer-ikkinchi-ikkinchi-ul {
   display: flex;
   flex-direction: column;
@@ -561,6 +566,12 @@ footer {
   }
   .footer-dack {
     font-size: 19px;
+  }
+  .footer-ikkinchi-uchunchi-ul {
+    display: none;
+  }
+  .footer-ikkinchi {
+    padding-left: 50px;
   }
 }
 main {
